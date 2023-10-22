@@ -34,7 +34,32 @@ window.onscroll=()=> {
 
 
     menuicon.classList.remove('bx-x');
-    navbar.classList.remove('active');
+    navbar.classList.removell  ('active');
 };
+
+// Scroll Reveal
+ScrollReveal({ 
+    //reset: true ,
+    distance:'80px',
+    duration:1500,
+    delay:200
+
+    
+});
+
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
+ScrollReveal().reveal('.home-content .social-media', { origin: 'left' });
+ScrollReveal().reveal('.home-content .btn', { origin: 'right' });
+ScrollReveal().reveal('.home-image, .portfolio-box, .contact form', { origin: 'bottom' });
+
+ScrollReveal().reveal('.about-image', { origin: 'left' });
+ScrollReveal().reveal('.about-content', { origin: 'right' });
+
+const typed = new Typed('#typing-text',{
+    strings:['Undergraduate','Undergraduate'],
+    typeSpeed:50
+   
+});
+
 
 
