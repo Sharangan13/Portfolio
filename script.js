@@ -53,7 +53,7 @@ const typed = new Typed('#typing-text', {
 
 document.getElementById('downloadBtn').addEventListener('click', function() {
     
-    let fileUrl = '../Portfolio/media/sharangan.pdf';
+    let fileUrl = 'media/sharangan.pdf';
 
     // Create a hidden link element
     let link = document.createElement('a');
