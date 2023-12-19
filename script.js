@@ -53,14 +53,14 @@ const typed = new Typed('#typing-text', {
 
 document.getElementById('downloadBtn').addEventListener('click', function() {
     
-    let fileUrl = 'media/sharangan.pdf';
+    let fileUrl = 'media/Sharu_CV.pdf';
 
     // Create a hidden link element
     let link = document.createElement('a');
     link.href = fileUrl;
 
     // Set the download attribute with the desired file name
-    link.download = 'SharanganCv.pdf';
+    link.download = 'Sharangan_CV';
 
     // Append the link to the document
     document.body.appendChild(link);
