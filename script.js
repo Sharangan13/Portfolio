@@ -60,7 +60,7 @@ document.getElementById('downloadBtn').addEventListener('click', function() {
     link.href = fileUrl;
 
     // Set the download attribute with the desired file name
-    link.download = 'Sharangan_CV';
+    link.download = 'Kugathasan_Sharangan_CV';
 
     // Append the link to the document
     document.body.appendChild(link);
