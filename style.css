@@ -200,6 +200,39 @@ span{
     border-radius: 15px;
     margin: 10px;
     
+    
+}
+
+.lan-skills i,
+.web-skills i,
+.app-skills i,
+.other-skills i
+ {
+    font-size: 8rem;
+    
+    
+    
+}
+.lan-skills h1,
+.web-skills h1,
+.app-skills h1,
+.other-skills h1
+ {
+    color: #008170;
+    
+    
+    
+}
+
+.lan-skills p,
+.web-skills p,
+.app-skills p,
+.other-skills p
+ {
+    word-spacing: 1rem;
+    
+    
+    
 }
 
 .lan-skills img,
@@ -322,7 +355,10 @@ span{
 }
 
 .portfolio-layer p{
-    font-size: 1.6rem;
+    font-size: 1.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    text-align: justify;
 }
 
 .portfolio-layer a{
@@ -336,7 +372,7 @@ span{
 }
 
 .portfolio-layer a i {
-    font-size: 2rem;
+    font-size: 2.8rem;
     color: var(--second-bg-color);
 }
 
